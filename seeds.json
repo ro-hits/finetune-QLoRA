@@ -1,0 +1,112 @@
+{
+  "description": "Seed examples for jewelry domain Q&A dataset generation. Each category has 2-3 hand-written examples that guide the LLM to generate more in the same style and depth.",
+  "categories": [
+    {
+      "name": "gemstone_properties",
+      "description": "Diamond 4Cs, colored gemstone grading, optical properties, hardness, origin",
+      "examples": [
+        {
+          "instruction": "What does VS1 clarity mean in diamond grading?",
+          "input": "",
+          "output": "VS1 (Very Slightly Included 1) is a diamond clarity grade on the GIA scale. It means the diamond contains minor inclusions that are difficult for a skilled grader to see under 10x magnification. Common VS1 inclusions include small crystals, feathers, or clouds. These inclusions are invisible to the naked eye, making VS1 an excellent value choice — you get an eye-clean diamond without paying for the FL or IF premium. VS1 sits between VVS2 (fewer inclusions) and VS2 (slightly more visible inclusions) on the GIA clarity scale."
+        },
+        {
+          "instruction": "How does carat weight affect diamond pricing?",
+          "input": "",
+          "output": "Diamond pricing increases exponentially with carat weight, not linearly. A 2-carat diamond costs significantly more than twice the price of a 1-carat diamond of identical quality. This happens because larger rough diamonds are exponentially rarer in nature. Prices also jump at 'magic numbers' — 0.50, 1.00, 1.50, and 2.00 carats — because demand clusters at these round weights. A 0.98ct diamond can cost 10-15% less than a 1.00ct stone with no visible size difference. Savvy buyers target just-under weights (0.90-0.99ct) for better value."
+        },
+        {
+          "instruction": "What is the difference between natural and lab-grown sapphires?",
+          "input": "",
+          "output": "Natural sapphires form deep in the earth over millions of years under extreme heat and pressure, while lab-grown sapphires are created in controlled environments using methods like flame fusion (Verneuil), Czochralski pulling, or flux growth. Chemically and optically they are identical — both are aluminum oxide (corundum) with trace elements that create color. The differences are: (1) inclusions — naturals have characteristic silk, fingerprints, and zoning, while lab-grown tend to have curved striae or gas bubbles; (2) value — natural sapphires command significantly higher prices, especially with desirable origins like Kashmir or Burma; (3) certification — reputable labs like GIA and Gübelin can distinguish them using spectroscopy and microscopy."
+        }
+      ]
+    },
+    {
+      "name": "settings_and_metalwork",
+      "description": "Prong, bezel, channel, pavé, tension settings. Metal types, karat grades, plating",
+      "examples": [
+        {
+          "instruction": "What are the pros and cons of a bezel setting versus a prong setting for an engagement ring?",
+          "input": "",
+          "output": "Bezel setting encircles the gemstone with a thin metal rim, while prong setting holds the stone with individual metal claws (typically 4 or 6). Bezel pros: superior stone protection, modern sleek aesthetic, ideal for active lifestyles, and the metal rim can make the stone appear slightly larger. Bezel cons: less light enters the stone from the sides which can slightly reduce brilliance, harder to clean underneath, and resizing can be more complex. Prong pros: maximum light exposure for brilliant sparkle, classic timeless look, easier to clean, and generally less expensive to set. Prong cons: prongs can snag on clothing or hair, stones are more exposed to impact, and prongs need periodic retipping (every 5-10 years) to maintain security."
+        },
+        {
+          "instruction": "What is the difference between 10K, 14K, and 18K gold?",
+          "input": "",
+          "output": "The karat number indicates the proportion of pure gold in the alloy. 10K is 41.7% gold (10/24), 14K is 58.3% gold (14/24), and 18K is 75% gold (18/24). The remaining percentage is alloyed metals like copper, silver, zinc, or nickel that add strength and affect color. 10K is the most durable and affordable but has a paler gold color and may cause reactions in sensitive skin. 14K is the most popular choice in the US — it balances durability, color richness, and price well. 18K has the richest gold color and is most hypoallergenic, but it's softer and more prone to scratches. For everyday rings, 14K is the sweet spot. For earrings or special occasion pieces where durability matters less, 18K gives the most luxurious appearance."
+        }
+      ]
+    },
+    {
+      "name": "pricing_and_value",
+      "description": "Retail vs wholesale, markup structures, appraisal, insurance, value retention",
+      "examples": [
+        {
+          "instruction": "Why is there such a big price difference between jewelry stores and online retailers?",
+          "input": "",
+          "output": "The price gap stems from fundamentally different cost structures. Brick-and-mortar jewelers carry overhead that online retailers avoid: prime retail rent ($50-200/sq ft annually), in-store staff, display inventory insurance, and showroom maintenance. Traditional jewelers also buy through multiple intermediaries — mine to cutter to wholesaler to retailer — each adding 10-30% margin. Online retailers like Blue Nile or James Allen often source directly from cutters, operate from warehouses, and carry virtual inventory (listing stones they don't physically hold until ordered). This lets them offer 20-40% lower prices on comparable diamonds. However, physical stores provide value that online can't fully replicate: seeing the stone in person, immediate sizing, relationship-based trust, and after-sale service like cleanings and inspections."
+        },
+        {
+          "instruction": "How should I evaluate whether a gemstone is fairly priced?",
+          "input": "",
+          "output": "Start by understanding the key price drivers for that specific gem type. For diamonds, compare the 4Cs against current Rapaport price list benchmarks. For colored stones, evaluate color (hue, tone, saturation), clarity, cut quality, carat weight, and any treatments. Then: (1) get prices from at least 3 comparable sources — check online retailers, auction results, and dealer listings; (2) verify any certifications — GIA, AGS, or Gübelin reports add credibility and affect pricing; (3) ask about treatments — heat treatment is standard for many sapphires and rubies and shouldn't command untreated prices; (4) consider origin — Kashmir sapphires, Burmese rubies, and Colombian emeralds carry origin premiums of 20-100%+; (5) factor in the setting — designer or brand-name settings add markup beyond the intrinsic gem value."
+        }
+      ]
+    },
+    {
+      "name": "product_descriptions",
+      "description": "E-commerce product copy, specifications, selling points for jewelry listings",
+      "examples": [
+        {
+          "instruction": "Write a product description for a 1.5ct oval diamond solitaire engagement ring in 14K white gold with a cathedral setting.",
+          "input": "",
+          "output": "This stunning oval diamond solitaire features a 1.50 carat oval brilliant-cut diamond set in polished 14K white gold with an elegant cathedral mounting. The cathedral setting elevates the center stone with graceful arches that rise from the band, adding both height and architectural beauty while providing excellent protection for the diamond's girdle. The oval shape elongates the finger for a flattering, sophisticated silhouette, while offering approximately 10% more surface area than a round brilliant of the same carat weight — giving you a larger face-up appearance. The slim comfort-fit band measures 2.0mm wide, keeping the focus on the center stone. Ring arrives in a premium presentation box with a GIA diamond grading report. Available in sizes 4-10 (quarter sizes available). Free resizing within the first year."
+        },
+        {
+          "instruction": "Write a product description for sterling silver blue topaz stud earrings.",
+          "input": "",
+          "output": "Classic round blue topaz stud earrings set in rhodium-plated .925 sterling silver. Each earring features a 6mm round brilliant-cut London Blue topaz (approximately 1.0ct total weight) secured in a four-prong basket setting with friction-back posts for comfortable, secure wear. London Blue topaz displays a deep, saturated blue with subtle teal undertones — a rich color that complements both casual and formal outfits. The rhodium plating adds a bright white finish and extra tarnish resistance to the sterling silver. Hypoallergenic and nickel-free, suitable for sensitive ears. Earrings arrive in a gift-ready box. Total gemstone weight: approximately 2.0ct."
+        }
+      ]
+    },
+    {
+      "name": "care_and_maintenance",
+      "description": "Cleaning methods, storage, wear guidelines, when to get professional service",
+      "examples": [
+        {
+          "instruction": "How should I clean my diamond engagement ring at home?",
+          "input": "",
+          "output": "The safest at-home method is warm water with a few drops of mild dish soap (Dawn works well). Soak the ring for 20-30 minutes, then gently scrub with a soft-bristled toothbrush, paying attention to the underside of the setting where oils and lotions accumulate. Rinse under warm running water (put a strainer over the drain!) and pat dry with a lint-free cloth. Avoid: bleach or harsh chemicals (can damage metal), ultrasonic cleaners at home (can loosen stones if settings are worn), toothpaste (too abrasive), and boiling water (thermal shock can crack some stones). Clean your ring every 1-2 weeks for best sparkle. Bring it to a jeweler twice a year for professional cleaning and prong inspection — catching a loose prong early prevents losing your stone."
+        }
+      ]
+    },
+    {
+      "name": "customer_service",
+      "description": "Common customer questions, returns, warranties, sizing, shipping concerns",
+      "examples": [
+        {
+          "instruction": "A customer asks: 'I ordered a size 7 ring but it feels too tight. What should I do?'",
+          "input": "",
+          "output": "First, note that a newly sized ring may feel snug initially — fingers need time to adjust, and factors like temperature, humidity, and time of day affect finger size (fingers are typically larger in the evening and in warm weather). If the ring slides over the knuckle but feels tight at the base, that's actually a correct fit — it should be snug enough not to fall off but loose enough to slide over the knuckle with slight resistance. If it truly won't go past the knuckle comfortably, or causes discomfort after a few days of wear, it needs resizing. Most rings can be sized up by 1-2 sizes. Contact our customer service within the return window to arrange a complimentary resize. We recommend getting professionally measured at a local jeweler if you're uncertain — ask them to measure at the end of the day when your fingers are at their largest."
+        },
+        {
+          "instruction": "What does 'rhodium plated' mean and will it wear off?",
+          "input": "",
+          "output": "Rhodium plating is a thin layer of rhodium (a platinum-group metal) electroplated onto jewelry, most commonly over white gold or sterling silver. It serves two purposes: it gives white gold its bright, reflective white appearance (without it, white gold has a slightly yellowish tint from its gold content), and it adds a hard, tarnish-resistant surface. Yes, rhodium plating does wear off over time — typically 1-3 years depending on wear frequency, body chemistry, and exposure to chemicals. You'll notice the underlying metal color starting to show through, especially on high-contact areas like the band's underside. Replating costs $40-100 at most jewelers and takes about a week. It's normal maintenance, not a defect. Some people replate annually to maintain the bright white look, while others let the natural warm tone develop."
+        }
+      ]
+    },
+    {
+      "name": "industry_terminology",
+      "description": "GIA, AGS, carat vs karat, hallmarks, treatments, certifications",
+      "examples": [
+        {
+          "instruction": "What is the difference between 'carat' and 'karat'?",
+          "input": "",
+          "output": "Despite sounding identical, carat and karat measure completely different things. Carat (ct) is a unit of weight for gemstones. One carat equals 200 milligrams (0.2 grams). A 5-carat diamond weighs exactly 1 gram. Carat can be subdivided into 100 points, so a 0.75ct diamond is also called a '75-pointer.' Karat (K or kt) measures the purity of gold alloys. Pure gold is 24 karat, meaning 24 out of 24 parts are gold. 14K gold means 14 parts gold and 10 parts other metals. The two terms share an origin — both derive from the carob seed, which was historically used as a counterweight in balance scales for precious materials. In many countries outside the US, 'carat' is used for both meanings, with context making the distinction clear."
+        }
+      ]
+    }
+  ]
+}
